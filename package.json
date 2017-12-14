@@ -8,7 +8,6 @@
   "private": false,
   "scripts": {
     "format": "prettier --single-quote --bracket-spacing=false --write 'src/**/*.js'",
-    "precommit": "lint-staged",
     "start:watch": "jest --watch",
     "start": "jest",
     "demo": "webpack-dev-server --config webpack.demo.js --colors --devtool cheap-module-inline-source-map --host=0.0.0.0",
@@ -23,7 +22,6 @@
       "git add"
     ]
   },
-
   "devDependencies": {
     "@types/jest": "^21.1.5",
     "babel-core": "^6.26.0",
